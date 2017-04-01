@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>hk591</title>
-	<link rel="stylesheet" type="text/css" href="src/views/swper/style.css">
-	<style type="text/css">
-</style>
-	<script type="text/javascript" src="src/views/swper/jquery-1.11.1.min.js"></script>
+    <meta charset="UTF-8">
+    <title>hk591</title>
+    <link rel="stylesheet" type="text/css" href="src/views/swper/style.css">
+    <style type="text/css">
+        .swipe {
+            overflow: hidden;
+            visibility: hidden;
+            position: relative;
+        }
+        .swipe-wrap {
+            overflow: hidden;
+            position: relative;
+        }
+        .swipe-wrap > div {
+            float: left;
+            width: 100%;
+            position: relative;
+        }
+    </style>
+    <script type="text/javascript" src="src/views/swper/jquery-1.11.1.min.js"></script>
 </head>
 <body>
-    <div id="app"></div>
-    <script src="/static/build.js"></script>
+<div id="app"></div>
+<script src="/static/build.js"></script>
 </body>
 </html>
